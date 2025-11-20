@@ -1,0 +1,89 @@
+/* Basic Reset and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default body margin */
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark text color */
+}
+
+/* Container for the main content */
+main {
+    width: 80%;
+    margin: auto; /* Center the main content */
+    padding: 20px 0;
+}
+
+/* Header/Navigation Styling */
+header {
+    background: #3c78b9; /* A professional blue color */
+    color: white;
+    padding: 1em 10%;
+    display: flex; /* For horizontal layout */
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display links side-by-side */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* Remove underline from links */
+    padding: 0 15px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #a4caff; /* Lighten link color on hover */
+}
+
+/* Section Styling */
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Hero/About Section Styling */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Skills List Styling */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #e2eafc;
+    color: #007bff;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
